@@ -1,0 +1,9 @@
+# BlackJack Project
+
+This is my week 3 of Skill Distillery project which is a Blackjack game that functions on the command line. This project further incorporates object-oriented programming through class structures and their fields and methods. I also implemented use of ArrayLists and methods of that interface to simulate the dealing and shuffling of cards. 
+
+When I first wrote this program, my methods were duplicated in multiple classes and it clearly had high coupling and low cohesion. I realized this when I tried to implement a new method where the Ace would have a value of 11 or 1 depending on the hand. Thus, I decided to rewrite my program and it proved to be successful because my methods were clearly separated in each class and were well-organized.
+
+The Dealer class handles the deck, the Game implementation class handles the logic of the game, and the Player class only has methods that pertain to moves that they can make in the game. I also used enums for card suits and ranks and arraylists to mimic a deck of cards and its ability to be shuffled. The Dealer deals each hand and the user is able to view their hand on the terminal. The player is able to choose whether they want to "hit" or "stay" and the dealer's moves are determined by the logic I had written for next moves. The game keeps track of each player's hand total and determines a winner or if there is a tie/push.
+
+There were many aspects that I would like to improve for my program such as incorporating bets and calculating how much a player loses or wins. Another feature that I would like to add is the ability to have multiple players. Since I had refactored my project to have less coupling and clearly defined methods in each class, I believe that these changes would be easy to incorporate without affecting the functionality of the current program. 
